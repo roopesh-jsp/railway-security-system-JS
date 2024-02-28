@@ -56,7 +56,7 @@ nav {
 .navOpen {
   transform: translateX(0) !important;
 }
-@media (max-width: 670px) {
+@media (max-width: 570px) {
   .navbar {
     position: fixed;
     top: 60px;
@@ -78,3 +78,112 @@ nav {
 /* **************!!!!!!!!!!!!!!!********** */
 
 /* ************main-body*************** */
+.discription-head {
+  margin: 50px 30px 10px 30px;
+  font-size: 19px;
+}
+.discription {
+  margin: 0 30px 20px;
+  font-size: 16px;
+}
+.inputs {
+  margin: 30px 50px;
+  padding: 30px;
+}
+.username {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.username input {
+  height: 30px;
+  width: 250px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 20px;
+  border: 1px solid #222;
+}
+.username input:focus {
+  outline: none;
+}
+.login {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+}
+.loginbtn {
+  margin: 20px;
+  width: 70px;
+  height: 30px;
+}
+.loginbtn a {
+  color: black;
+  text-decoration: none;
+}
+
+/* *********accounts********* */
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logincredits {
+  margin: 50px auto;
+
+  padding: 30px;
+}
+.logincredits h4 {
+  font-size: 20px;
+  margin: 10px;
+}
+.logincredits label {
+  font-size: 18px;
+  margin: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.logincredits input {
+  height: 30px;
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 1px solid #222;
+}
+.logincredits input::placeholder {
+  font-weight: 100;
+}
+.logincredits input:focus {
+  outline: none;
+}
+.logincredits button {
+  height: 30px;
+  width: 70px;
+  margin: 10px 20px;
+}
+/* ***********ADMIN INTERFACE ********** */
+
+.adminInterface {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  padding: 50px;
+  row-gap: 20px;
+}
+.adminInterface button {
+  width: 300px;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #222;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.adminInterface h4 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
