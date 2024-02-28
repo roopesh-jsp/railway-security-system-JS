@@ -15,3 +15,17 @@ if (hamburger) {
     });
   });
 }
+const cctvArr = ["past recording", "suspicious", "live recording", "back"];
+let adminInterface = document.querySelector(".adminInterface ");
+// console.log(adminInterface);
+// function cctv() {
+//   adminInterface.forEach((x, i) => {
+//     x.textContent = `${cctvArr[i]}`;
+//   });
+// }
+
+// let buttons = "";
+// for (let i = 0; i < 3; i++) {
+//   buttons += "<button>${cctvArr[i]}</button>";
+// }
+// adminInterface.insertAdjacentHTML(buttons);
