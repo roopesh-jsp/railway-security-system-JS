@@ -17,6 +17,7 @@ if (hamburger) {
 }
 const cctvArr = ["past recording", "suspicious", "live recording", "back"];
 let adminInterface = document.querySelector(".adminInterface ");
+
 // console.log(adminInterface);
 // function cctv() {
 //   adminInterface.forEach((x, i) => {
