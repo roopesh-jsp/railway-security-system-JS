@@ -248,3 +248,6 @@ nav {
   transform: scale(1.08);
   background-color: #fff;
 }
+.hover:hover {
+  background-color: #fff;
+}
